@@ -1,11 +1,12 @@
-import AddTodo from './AddTodo.tsx'
+import { Outlet } from 'react-router-dom'
+import Home from './Home'
 
 function App() {
   return (
     <>
       <header className="header">
-        <h1>todos</h1>
-        <AddTodo />
+        <h1>beep bopo</h1>
+        <Home />
       </header>
       <section className="main"></section>
       <footer className="footer"></footer>
