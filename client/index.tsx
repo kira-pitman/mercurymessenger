@@ -7,7 +7,6 @@ import App from './components/App.tsx'
 const queryClient = new QueryClient()
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log(document.getElementById('app'))
   createRoot(document.getElementById('app') as HTMLElement).render(
     <QueryClientProvider client={queryClient}>
       <App />
